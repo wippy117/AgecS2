@@ -1,0 +1,303 @@
+﻿Build started 1/11/2016 2:59:23 PM.
+     1>Project "F:\WORKING\OpenGL_SDL Base Project\OpenGL_SDL Base Project\OpenGL_SDL Base Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\OpenGL_SDL Base Project\SDL\mixer_include" /I"..\OpenGL_SDL Base Project\SDL\include" /I"..\OpenGL_SDL Base Project\SDL\image_include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3DSLoader.cpp 3DSObject.cpp Camera.cpp GameScreenLevel1.cpp GameScreenManager.cpp
+         GameScreenManager.cpp
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(14): error C2061: syntax error : identifier 'Vector3D'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(24): error C2146: syntax error : missing ';' before identifier 'mPosition'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(29): error C2146: syntax error : missing ';' before identifier 'object'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2146: syntax error : missing ';' before identifier 'position'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2146: syntax error : missing ';' before identifier 'forward'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2146: syntax error : missing ';' before identifier 'up'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2146: syntax error : missing ';' before identifier 'right'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2238: unexpected token(s) preceding ';'
+         GameScreenLevel1.cpp
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(14): error C2061: syntax error : identifier 'Vector3D'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(24): error C2146: syntax error : missing ';' before identifier 'mPosition'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(29): error C2146: syntax error : missing ';' before identifier 'object'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2146: syntax error : missing ';' before identifier 'position'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2146: syntax error : missing ';' before identifier 'forward'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2146: syntax error : missing ';' before identifier 'up'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2146: syntax error : missing ';' before identifier 'right'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(46): error C3861: 'Vector3D': identifier not found
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(52): error C3861: 'Vector3D': identifier not found
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(69): error C2065: 'lighting' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(69): error C2146: syntax error : missing ';' before identifier 'light'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(69): error C2065: 'light' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(78): error C2065: 'light' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(78): error C2228: left of '.ambient' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(78): error C2660: 'glLightfv' : function does not take 2 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(79): error C2065: 'light' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(79): error C2228: left of '.diffuse' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(79): error C2660: 'glLightfv' : function does not take 2 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(80): error C2065: 'light' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(80): error C2228: left of '.specular' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(80): error C2660: 'glLightfv' : function does not take 2 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(88): error C2065: 'material' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(88): error C2146: syntax error : missing ';' before identifier 'material'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(96): error C2065: 'material' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(96): error C2228: left of '.ambient' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(96): error C2660: 'glMaterialfv' : function does not take 2 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(97): error C2065: 'material' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(97): error C2228: left of '.diffuse' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(97): error C2660: 'glMaterialfv' : function does not take 2 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(98): error C2065: 'material' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(98): error C2228: left of '.specular' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(98): error C2660: 'glMaterialfv' : function does not take 2 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(99): error C2065: 'material' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(99): error C2228: left of '.shininess' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(99): error C2660: 'glMaterialf' : function does not take 2 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\gamescreenlevel1.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+         Camera.cpp
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2146: syntax error : missing ';' before identifier 'position'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2146: syntax error : missing ';' before identifier 'forward'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2146: syntax error : missing ';' before identifier 'up'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2146: syntax error : missing ';' before identifier 'right'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(32): error C2065: 'forward' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(33): error C3861: 'Vector3D': identifier not found
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(37): error C2065: 'right' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(38): error C3861: 'Vector3D': identifier not found
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(42): error C2065: 'up' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(43): error C2065: 'right' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(43): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(43): error C2065: 'forward' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(43): error C2228: left of '.z' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(44): error C2065: 'right' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(44): error C2228: left of '.z' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(44): error C2065: 'forward' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(44): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(45): error C2065: 'right' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(45): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(45): error C2065: 'forward' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(45): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(43): error C3861: 'Vector3D': identifier not found
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(52): error C2065: 'position' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(52): error C2065: 'forward' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(55): error C2065: 'position' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(55): error C2065: 'forward' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(58): error C2065: 'position' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(58): error C2065: 'right' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(61): error C2065: 'position' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(61): error C2065: 'right' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(81): error C2065: 'Vector3D' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(81): error C2146: syntax error : missing ';' before identifier 'lookatPos'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(81): error C2065: 'lookatPos' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(81): error C2065: 'position' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(81): error C2065: 'forward' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(83): error C2065: 'position' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(83): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(83): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(83): error C2228: left of '.z' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(83): error C2065: 'lookatPos' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(83): error C2065: 'up' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.cpp(83): error C2660: 'gluLookAt' : function does not take 1 arguments
+         3DSObject.cpp
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(14): error C2061: syntax error : identifier 'Vector3D'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(24): error C2146: syntax error : missing ';' before identifier 'mPosition'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(29): error C2146: syntax error : missing ';' before identifier 'object'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.h(3): error C2065: 'obj_type_ptr' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.h(3): error C2146: syntax error : missing ')' before identifier 'ogg'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.h(3): error C2059: syntax error : ')'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2146: syntax error : missing ';' before identifier 'position'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(20): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2146: syntax error : missing ';' before identifier 'forward'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(21): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2146: syntax error : missing ';' before identifier 'up'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(22): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2146: syntax error : missing ';' before identifier 'right'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2143: syntax error : missing ';' before '='
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\camera.h(23): error C2238: unexpected token(s) preceding ';'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(6): error C2065: 'Vector3D' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(6): error C2146: syntax error : missing ')' before identifier 'startPosition'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(6): error C2761: '{ctor}' : member function redeclaration not allowed
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(6): error C2059: syntax error : ')'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(7): error C2143: syntax error : missing ';' before '{'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(7): error C2447: '{' : missing function header (old-style formal list?)
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(18): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(34): error C2065: 'mPosition' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(34): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(34): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(34): error C2228: left of '.z' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(34): error C2660: 'glTranslatef' : function does not take 1 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(38): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(38): error C2228: left of '.id_texture' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(38): error C2660: 'glBindTexture' : function does not take 1 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(41): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(41): error C2228: left of '.triangles_qty' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(44): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(44): error C2228: left of '.mapcoord' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(44): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(44): error C2228: left of '.a' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(44): error C2228: left of '.u' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(45): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(45): error C2228: left of '.mapcoord' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(45): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(45): error C2228: left of '.a' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(45): error C2228: left of '.v' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(45): error C2660: 'glTexCoord2f' : function does not take 1 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(47): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(47): error C2228: left of '.vertex' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(47): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(47): error C2228: left of '.a' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(47): error C2228: left of '.x' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(48): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(48): error C2228: left of '.vertex' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(48): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(48): error C2228: left of '.a' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(48): error C2228: left of '.y' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(49): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(49): error C2228: left of '.vertex' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(49): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(49): error C2228: left of '.a' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(49): error C2228: left of '.z' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(49): error C2660: 'glVertex3f' : function does not take 1 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(52): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(52): error C2228: left of '.mapcoord' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(52): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(52): error C2228: left of '.b' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(52): error C2228: left of '.u' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(53): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(53): error C2228: left of '.mapcoord' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(53): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(53): error C2228: left of '.b' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(53): error C2228: left of '.v' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(53): error C2660: 'glTexCoord2f' : function does not take 1 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(55): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(55): error C2228: left of '.vertex' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(55): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(55): error C2228: left of '.b' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(55): error C2228: left of '.x' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(56): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(56): error C2228: left of '.vertex' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(56): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(56): error C2228: left of '.b' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(56): error C2228: left of '.y' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(57): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(57): error C2228: left of '.vertex' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(57): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(57): error C2228: left of '.b' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(57): error C2228: left of '.z' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(57): error C2660: 'glVertex3f' : function does not take 1 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(60): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(60): error C2228: left of '.mapcoord' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(60): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(60): error C2228: left of '.c' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(60): error C2228: left of '.u' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(61): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(61): error C2228: left of '.mapcoord' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(61): error C2228: left of '.triangles' must have class/struct/union
+                 type is 'unknown-type'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(61): error C2228: left of '.c' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(61): error C2228: left of '.v' must have class/struct/union
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(61): error C2660: 'glTexCoord2f' : function does not take 1 arguments
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(63): error C2065: 'object' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsobject.cpp(63): fatal error C1003: error count exceeds 100; stopping compilation
+         3DSLoader.cpp
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.h(3): error C2065: 'obj_type_ptr' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.h(3): error C2146: syntax error : missing ')' before identifier 'ogg'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.h(3): error C2059: syntax error : ')'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.cpp(16): error C2065: 'obj_type_ptr' : undeclared identifier
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.cpp(16): error C2146: syntax error : missing ')' before identifier 'p_object'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.cpp(16): error C2374: 'Load3DS' : redefinition; multiple initialization
+                 f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.h(3) : see declaration of 'Load3DS'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.cpp(16): error C2059: syntax error : ')'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.cpp(17): error C2143: syntax error : missing ';' before '{'
+     1>f:\working\opengl_sdl base project\opengl_sdl base project\3dsloader.cpp(17): error C2447: '{' : missing function header (old-style formal list?)
+         Generating Code...
+     1>Done Building Project "F:\WORKING\OpenGL_SDL Base Project\OpenGL_SDL Base Project\OpenGL_SDL Base Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.50
